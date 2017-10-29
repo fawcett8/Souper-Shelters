@@ -1,6 +1,8 @@
-body{
-	background-color: rgb(208, 138, 218);
+h1 {
 	font-family: "georgia";
+}
+h4 {
+  font-family: "georgia";
 }
 .container {
     position: relative;
@@ -41,3 +43,24 @@ body{
   padding: 16px 32px;
   font-family: "helvetica"
 }
+.content_lists {
+   list-style: none;
+   padding: 0px 10px 0px 0px;
+ }
+ body {
+  padding: 0px 10px 0px 10px;
+ }
+#charity_links {
+  margin: 0 auto;
+    text-align: center;
+}
+.charity_list_item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 13px;
+    font-weight:bold;
+}
+label {
+  padding: 10px;
+}
+

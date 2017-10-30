@@ -1,11 +1,15 @@
-head{
-  background-color: rgba(178, 36, 68, 0.9);
-  font-family: "helvetica"
+header{background-color: rgba(178, 36, 68, 0.9);
+	font-family: "helvetica";
 }
 body{
 	background-color: rgba(255, 255, 255, 1);
-	font-family: "georgia"
+	font-family: "georgia";
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
+
 .container {
     position: relative;
     width: 50%;
@@ -14,7 +18,7 @@ body{
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 200%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -33,15 +37,16 @@ body{
 .container:hover .image {
   opacity: 0.3;
 }
-
 .container:hover .middle {
   opacity: 1;
 }
-
 .text {
   background-color: rgba(0, 0, 0, 0.6);
-  color: rgba(255, 255, 255, 1);
+  color: white;
   font-size: 14px;
-  padding: 32px 64px;
-  font-family: "georgia"
+  padding: 16px 32px;
+  font-family: "helvetica";
+  font-style: bold;
+  height:250px;
+  width: 500px;
 }

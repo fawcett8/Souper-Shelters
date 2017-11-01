@@ -1,6 +1,9 @@
 h1 {
   font-family: "georgia";
+<<<<<<< HEAD
   color: rgba(178, 36, 68, 0.9);
+=======
+>>>>>>> master
 }
 h4 {
   font-family: "georgia";
@@ -67,6 +70,7 @@ h4 {
 label {
   padding: 10px;
 }
+<<<<<<< HEAD
 a {
 color: rgba(178, 36, 68, 0.9);
 }
@@ -99,3 +103,5 @@ background-color: rgba(178, 36, 68, 0.9);
 .jumbotron h1{
   color: white;
 }
+=======
+>>>>>>> master

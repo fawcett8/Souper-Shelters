@@ -1,12 +1,16 @@
 h1 {
   font-family: "georgia";
+<<<<<<< HEAD
+  color: rgba(178, 36, 68, 0.9);
+=======
+>>>>>>> master
 }
 h4 {
   font-family: "georgia";
 }
 .container {
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .image {
@@ -66,3 +70,38 @@ h4 {
 label {
   padding: 10px;
 }
+<<<<<<< HEAD
+a {
+color: rgba(178, 36, 68, 0.9);
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: black;  /*Sets the text hover color on navbar*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  /*BACKGROUND color for active*/
+background-color: rgba(178, 36, 68, 0.9);
+}
+  .navbar-default {
+    background-color: rgba(178, 36, 68, 0.9);
+    border-color: #030033;
+}
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+.jumbotron {
+  border-style: solid;
+  border-color: black;
+  background-color: rgba(178, 36, 68, 0.9);
+}
+.jumbotron h1{
+  color: white;
+}
+=======
+>>>>>>> master

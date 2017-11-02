@@ -1,9 +1,14 @@
 h1 {
   font-family: "georgia";
-<<<<<<< HEAD
   color: rgba(178, 36, 68, 0.9);
-=======
->>>>>>> master
+}
+h2 {
+  font-family: "georgia";
+  color: rgba(178, 36, 68, 0.9);
+}
+.jumbotron h2 {
+    font-family: "georgia";
+  color: white;
 }
 h4 {
   font-family: "georgia";
@@ -95,6 +100,9 @@ background-color: rgba(178, 36, 68, 0.9);
   .navbar-default .navbar-nav > li > a {
    color: white; /*Change active text color here*/
     }
+.navbar-brand a{
+  color: white;
+}
 .jumbotron {
   border-style: solid;
   border-color: black;

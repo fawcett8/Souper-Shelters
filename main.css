@@ -113,12 +113,10 @@ background-color: rgba(178, 36, 68, 0.9);
 }
 =======
 a.button {
-  font:bold 14px helvetica;  
-  background-color:rgba(178, 36, 68, 0.9);
+  font-family: helvetica; 
+  font-size:12px;
+  background-color: rgba(178, 36, 68, 0.9);
   color: white;
-  display: block;
-  height: 20px;
-  width: auto;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
